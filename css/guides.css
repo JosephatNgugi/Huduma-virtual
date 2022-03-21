@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+ text-align: center;
+}
+        /* NAV STYLING */
+nav{
+    background-color: #2364AA;
+    color: #000000;
+    padding: 0.5% 5%;
+    align-items: center;
+}
+.logo a {
+    color: #000000;
+    text-decoration: none;
+}
+.logo a h1{
+    font-size: x-large;
+    padding: 2%;
+}
+.navbar-nav{
+    padding-left: 50%;
+    font-size: 1.3rem;
+}
+.nav-link{
+    color: #FFFFFF;
+    font-weight: bolder;
+    /* padding: 0.5rem; */
+    /* margin: 0% 3%; */
+    border-radius: 15px;
+} 
+.nav-link:hover{
+    background-color: #EEEEEE;
+    color: #000000;
+}
