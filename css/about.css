@@ -26,12 +26,17 @@
     padding: 1%;
 }
 .our-goal .title1{
-    width: 600px;
-    padding: 10%;  
+    width: 900px;
+    padding: 10%;
+    
 }
 .title1 h2{
     font-family: "Antonio", sans-serif;
 }
-.our-goal .paragraph{
+.our-goal .paragraph1{
     padding: 5%;
+
+}
+p{
+    font-family: "poppins", sans-serif;
 }
