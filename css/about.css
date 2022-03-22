@@ -40,6 +40,7 @@
 .about-us h2{
     font-family: "Antonio", sans-serif;
     text-align: center;
+    padding-top: 2%;
 }
 .about-us:after { 
     content:"";
