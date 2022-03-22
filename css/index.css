@@ -13,7 +13,8 @@
             background-color: #2364AA;
             color: #000000;
             padding: 0.5% 5%;
-            align-items: center;
+            align-items: right;
+            
         }
         .navbar-links{
             margin-right: 10%;
@@ -21,6 +22,7 @@
         .navbar-links li{
             list-style: none;
             font-size: 1.3rem;
+            align-items: right;
         }
         .logo a {
             text-decoration: none;
@@ -41,11 +43,18 @@
             background-color: #EEEEEE;
             color: #000000;
         }
-        h1 {
+        h1, title {
             font-family: 'Antonio', sans-serif;
+            font-size: 25px;
         }
         p, li {
             font-family: 'Poppins', sans-serif;
+        }
+        p {
+            font-size: 20px;
+        }
+        li {
+            font-size: 18px;
         }
         ol {
             list-style-position: inside;
