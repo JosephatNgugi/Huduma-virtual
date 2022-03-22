@@ -49,21 +49,41 @@
             font-size: 30px;
 
         }
+        .jumbotron {
+            background-image: url("../img/logo/banner1.jpg");
+            background-size: cover;
+            background-position: center center;
+            text-align: right;
+            background-repeat: no-repeat;
+            max-height: 100%;
+            color: black;
+            
+        }
+        .jumbotron h1 {
+            font-size: 70px;
+            font-family: 'Patrick Hand', cursive;
+            text-decoration:none;
+        }
         h1 {
             font-family: 'Antonio', sans-serif;
-            font-size: 25px;
+            font-size: 40px;
+            text-decoration: underline;
         }
         p, li {
             font-family: 'Poppins', sans-serif;
         }
         p {
-            font-size: 20px;
+            font-size: 30px;
         }
         li {
-            font-size: 18px;
+            font-size: 20px;
         }
         ol {
             list-style-position: inside;
+        }
+        .contact-us p {
+            font-size: 20px;
+            padding-top: 15px;
         }
         footer {
             background-color: #2364AA;
