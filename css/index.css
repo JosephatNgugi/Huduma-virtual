@@ -44,11 +44,7 @@
             background-color: #EEEEEE;
             color: #000000;
         }
-        title {
-            font-family: 'Antonio', sans-serif;
-            font-size: 30px;
-
-        }
+       /* Jumbotron */
         .jumbotron {
             background-image: url("../img/logo/banner1.jpg");
             background-size: cover;
