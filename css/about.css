@@ -3,6 +3,40 @@
     margin: 0;
     box-sizing: border-box;
 }
+ /* NAV STYLING */
+ nav{
+    background-color: #2364AA;
+    color: #000000;
+    padding: 0.5% 5%;
+    align-items: center;
+}
+.navbar-links{
+    margin-right: 10%;
+}
+.navbar-links li{
+    list-style: none;
+    font-size: 1.3rem;
+}
+.logo a {
+    text-decoration: none;
+}
+.logo a h1{
+    color: #000000;
+    font-size: x-large;
+    padding: 2%;
+}
+.nav-link{
+    color: #FFFFFF;
+    font-weight: bolder;
+    padding: 0.5rem;
+    border-radius: 15px;
+} 
+.nav-link:hover{
+    background-color: #EEEEEE;
+    color: #000000;
+}
+        /* NAV STYLING */
+
 /* Styling what we do */
 .what-we-do {
     display: flex;
@@ -11,7 +45,7 @@
 }
 .what-we-do .title{
     width: 600px;
-    padding: 10%;
+    padding: 8%;
 }
 .title h2{
     font-family: "Antonio", sans-serif;
@@ -27,7 +61,7 @@
 }
 .our-goal .title1{
     width: 900px;
-    padding: 10%;
+    padding: 8%;
     
 }
 .title1 h2{
