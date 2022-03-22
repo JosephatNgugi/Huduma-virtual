@@ -64,6 +64,9 @@
             font-family: 'Patrick Hand', cursive;
             text-decoration:none;
         }
+        .jumbotron h1:hover {
+            color: #2364AA;
+        }
         h1 {
             font-family: 'Antonio', sans-serif;
             font-size: 40px;
@@ -81,8 +84,17 @@
         ol {
             list-style-position: inside;
         }
+        .servicebutton {
+            padding-top: 18px;
+        }
+        .servicebutton a {
+            color: white;
+        }
         .contact-us p {
-            font-size: 20px;
+            font-size: 25px;
+            padding-top: 20px;
+        }
+        .formsection button {
             padding-top: 15px;
         }
         footer {
