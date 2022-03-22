@@ -36,6 +36,20 @@
     color: #000000;
 }
      /* NAV STYLING */
+     /* Styling about-us title */
+.about-us h2{
+    font-family: "Antonio", sans-serif;
+    text-align: center;
+}
+.about-us:after { 
+    content:"";
+    display:block;
+    width: 6em;
+    max-width:70%;
+    border-bottom: 0.3em solid #b5d9ff;
+    margin: 1em auto 0;
+}
+
 
 /* Styling what we do */
 .what-we-do {
@@ -45,9 +59,10 @@
 }
 .what-we-do .title{
     background-color: #b5d9ff;
-    width: 600px;
-    padding: 8%;
+    width: 130vh;
+    padding: 7%;
     border-radius: 3%;
+    text-align: center;
 }
 .title h2{
     font-family: "Antonio", sans-serif;
@@ -62,13 +77,11 @@
     padding: 1%;
 }
 .our-goal .title1{
-    width: 700px;
+    width: 150vh;
     padding: 7%;
     text-align: center;
     background-color: #b5d9ff;
-    border-radius: 3%;
-
-    
+    border-radius: 3%;  
 }
 .title1 h2{
     font-family: "Antonio", sans-serif;
