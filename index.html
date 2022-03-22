@@ -49,9 +49,14 @@
   </div>
   <div class="services"></div>
  <footer>
-  <p id="year"></p>
+  <p id="currentyear"></p>
  </footer>
 
   
 </body>
+   <script>
+      const d = new Date ();
+      let year = d.getFullYear();
+      document.getElementById("currentyear").innerHTML=year;
+    </script>
 </html>
