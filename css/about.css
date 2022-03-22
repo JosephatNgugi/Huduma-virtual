@@ -115,11 +115,15 @@ p{
 }
 .col-3 img {
 height: 40vh;
+border-radius: 2%;
 }
 .col-3 p {
     text-align:center;
 }
 /* style footer */
 footer{
+    background-color: #b5d9ff;
+}
+footer p{
     text-align: center;
 }
