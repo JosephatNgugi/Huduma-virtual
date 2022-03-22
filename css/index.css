@@ -3,7 +3,7 @@
         *{
             margin: 0;
             padding: 0;
-            box-sizing: border-box;
+            /* box-sizing: border-box; */
         }
         body{
          text-align: center;
@@ -13,7 +13,8 @@
             background-color: #2364AA;
             color: #000000;
             padding: 0.5% 5%;
-            align-items: right;
+            /* align-items: right;
+            float: right; */
             
         }
         .navbar-links{
@@ -66,6 +67,7 @@
         }
         footer {
             background-color: #2364AA;
+
         }
 
 
