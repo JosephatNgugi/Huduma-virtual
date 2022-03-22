@@ -89,9 +89,16 @@
 }
 .our-goal .paragraph1{
     padding: 3%;
-
 }
 p{
     font-family: "poppins", sans-serif;
     text-align: justify;
+}
+/* Style team section */
+.team h2{
+    text-align: center;
+    font-family: "Antonio", sans-serif;
+}
+.team {
+    padding: 2%;
 }
