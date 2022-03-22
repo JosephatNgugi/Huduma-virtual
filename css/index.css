@@ -1,5 +1,15 @@
 
+        
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+         text-align: center;
+        }
         /* NAV STYLING */
+    
         nav{
           background-color: #2364AA;
           color: #000000;
