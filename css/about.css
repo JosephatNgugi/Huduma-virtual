@@ -110,9 +110,12 @@ p{
 .team {
     padding: 2%;
 }
+.col-3 {
+    padding: 4%;
+}
 .col-3 img {
 height: 40vh;
 }
-.team p {
+.col-3 p {
     text-align:center;
 }
