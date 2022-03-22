@@ -6,6 +6,12 @@
 body{
  text-align: center;
 }
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Antonio', sans-serif;
+}
+p{
+    font-family: 'Poppins', sans-serif;
+}
         /* NAV STYLING */
 nav{
     background-color: #2364AA;
@@ -42,15 +48,42 @@ nav{
         /* NAV STYLING */
         /* MAIN SECTION STYLING */
 .main{
-    padding: 5% 2%;
+    padding: 5% 0%;
 }
 .main h3{
     padding: 5%;
 }
-.kra{
-    border: #d32727 solid;
+.col-md-4{
+    position: relative;
+}
+.content{
+    cursor: pointer;
+    border: #2364AA solid;
+    position: relative;
     border-radius: 20px;
-    background: linear-gradient( #d32727 , #ffffff, #ffffff ), url(../images/Pizza-landing-background.jpg);
-
+    margin: 5%;
+    padding: 5%;
+    height: 60vh;
+    background: linear-gradient( #2364AA , #ffffff, #ffffff );
+}
+.content .img-fluid{
+    padding-bottom: 25%;
+}
+.content p{
+ position: absolute;
+ bottom: 1%;
+ right: 1%;
+ padding: 0% 5%;
+}
+.content:hover{
+    position: absolute;
+    left: 1%;
+    bottom: 3%;
+    border: #2364AA double;
+}
+.content p:hover{
+    text-decoration: underline;
+    text-decoration-color: #2364AA;
+    text-decoration-thickness: 3px;
 }
         /* MAIN SECTION STYLING */
