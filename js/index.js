@@ -8,7 +8,7 @@ $(document).ready(function() {
     let inputtedName = $("#fullname").val();
     let inputtedEmail = $("#email").val();
     let newNewsletter = Newsletter(inputtedName, inputtedName);
-    alert("Hello " + fullName + ", thank you for signing up for our newsletter.")
+    alert("Hello " + fullName + ", thank you for subscribing to newsletter.")
 
 
   });
