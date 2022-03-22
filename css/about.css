@@ -110,9 +110,20 @@ p{
 .team {
     padding: 2%;
 }
+.col-3 {
+    padding: 4%;
+}
 .col-3 img {
 height: 40vh;
+border-radius: 2%;
 }
-.team p {
+.col-3 p {
     text-align:center;
+}
+/* style footer */
+footer{
+    background-color: #b5d9ff;
+}
+footer p{
+    text-align: center;
 }
