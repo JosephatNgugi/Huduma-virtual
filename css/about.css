@@ -41,6 +41,7 @@
     font-family: "Antonio", sans-serif;
     text-align: center;
     padding-top: 2%;
+    font-size: 40px;
 }
 .about-us:after { 
     content:"";
@@ -61,12 +62,14 @@
 .what-we-do .title{
     background-color: #b5d9ff;
     width: 130vh;
-    padding: 7%;
+    padding: 12%;
     border-radius: 3%;
     text-align: center;
+    
 }
 .title h2{
     font-family: "Antonio", sans-serif;
+    font-size: 33px;
 }
 .what-we-do .paragraph{
     padding : 5%;
@@ -79,13 +82,14 @@
 }
 .our-goal .title1{
     width: 150vh;
-    padding: 7%;
+    padding: 12%;
     text-align: center;
     background-color: #b5d9ff;
     border-radius: 3%;  
 }
 .title1 h2{
     font-family: "Antonio", sans-serif;
+    font-size: 33px;
 }
 .our-goal .paragraph1{
     padding: 3%;
@@ -95,10 +99,20 @@ p{
     text-align: justify;
 }
 /* Style team section */
+/* #team { */
+    /* background-color:  #cbe1f6; */
+
 .team h2{
     text-align: center;
     font-family: "Antonio", sans-serif;
+    padding-bottom: 1%;
 }
 .team {
     padding: 2%;
+}
+.col-3 img {
+height: 40vh;
+}
+.team p {
+    text-align:center;
 }
