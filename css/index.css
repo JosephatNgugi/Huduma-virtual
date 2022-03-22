@@ -44,8 +44,11 @@
         h1 {
             font-family: 'Antonio', sans-serif;
         }
-        p {
+        p, li {
             font-family: 'Poppins', sans-serif;
+        }
+        ol {
+            list-style-position: inside;
         }
 
 
