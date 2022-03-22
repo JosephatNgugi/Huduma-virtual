@@ -40,3 +40,17 @@ nav{
     color: #000000;
 }
         /* NAV STYLING */
+        /* MAIN SECTION STYLING */
+.main{
+    padding: 5% 2%;
+}
+.main h3{
+    padding: 5%;
+}
+.kra{
+    border: #d32727 solid;
+    border-radius: 20px;
+    background: linear-gradient( #d32727 , #ffffff, #ffffff ), url(../images/Pizza-landing-background.jpg);
+
+}
+        /* MAIN SECTION STYLING */
