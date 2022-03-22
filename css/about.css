@@ -119,3 +119,7 @@ height: 40vh;
 .col-3 p {
     text-align:center;
 }
+/* style footer */
+footer{
+    text-align: center;
+}
