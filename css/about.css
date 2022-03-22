@@ -59,13 +59,14 @@
 .our-goal{
     display: flex;
     justify-content: center;
-    /* padding: 1%; */
+    padding: 1%;
 }
 .our-goal .title1{
-    width: 900px;
-    padding: 8%;
+    width: 700px;
+    padding: 7%;
     text-align: center;
     background-color: #b5d9ff;
+    border-radius: 3%;
 
     
 }
@@ -73,7 +74,7 @@
     font-family: "Antonio", sans-serif;
 }
 .our-goal .paragraph1{
-    padding: 5%;
+    padding: 3%;
 
 }
 p{
