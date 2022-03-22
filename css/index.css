@@ -50,7 +50,7 @@
 
         }
         .jumbotron {
-            background-image: url("../img/logo/banner3.jpg");
+            background-image: url("../img/logo/banner1.jpg");
             background-size: cover;
             background-position: center center;
             text-align: right;
@@ -62,10 +62,12 @@
         .jumbotron h1 {
             font-size: 70px;
             font-family: 'Patrick Hand', cursive;
+            text-decoration:none;
         }
         h1 {
             font-family: 'Antonio', sans-serif;
             font-size: 40px;
+            text-decoration: underline;
         }
         p, li {
             font-family: 'Poppins', sans-serif;
@@ -78,6 +80,10 @@
         }
         ol {
             list-style-position: inside;
+        }
+        .contact-us p {
+            font-size: 20px;
+            padding-top: 15px;
         }
         footer {
             background-color: #2364AA;
