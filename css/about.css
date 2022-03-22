@@ -3,15 +3,66 @@
     margin: 0;
     box-sizing: border-box;
 }
+ /* NAV STYLING */
+ nav{
+    background-color: #2364AA;
+    color: #000000;
+    padding: 0.5% 5%;
+    align-items: center;
+}
+.navbar-links{
+    margin-right: 10%;
+}
+.navbar-links li{
+    list-style: none;
+    font-size: 1.3rem;
+}
+.logo a {
+    text-decoration: none;
+}
+.logo a h1{
+    color: #000000;
+    font-size: x-large;
+    padding: 2%;
+}
+.nav-link{
+    color: #FFFFFF;
+    font-weight: bolder;
+    padding: 0.5rem;
+    border-radius: 15px;
+} 
+.nav-link:hover{
+    background-color: #EEEEEE;
+    color: #000000;
+}
+     /* NAV STYLING */
+     /* Styling about-us title */
+.about-us h2{
+    font-family: "Antonio", sans-serif;
+    text-align: center;
+}
+.about-us:after { 
+    content:"";
+    display:block;
+    width: 6em;
+    max-width:70%;
+    border-bottom: 0.3em solid #b5d9ff;
+    margin: 1em auto 0;
+}
+
+
 /* Styling what we do */
 .what-we-do {
     display: flex;
     justify-content: center;
-    padding: 1%;
+    padding: 3%;
 }
 .what-we-do .title{
-    width: 600px;
-    padding: 10%;
+    background-color: #b5d9ff;
+    width: 130vh;
+    padding: 7%;
+    border-radius: 3%;
+    text-align: center;
 }
 .title h2{
     font-family: "Antonio", sans-serif;
@@ -23,20 +74,23 @@
 .our-goal{
     display: flex;
     justify-content: center;
-    padding: 1%;
+    padding: 3%;
 }
 .our-goal .title1{
-    width: 900px;
-    padding: 10%;
-    
+    width: 150vh;
+    padding: 7%;
+    text-align: center;
+    background-color: #b5d9ff;
+    border-radius: 3%;  
 }
 .title1 h2{
     font-family: "Antonio", sans-serif;
 }
 .our-goal .paragraph1{
-    padding: 5%;
+    padding: 3%;
 
 }
 p{
     font-family: "poppins", sans-serif;
+    text-align: justify;
 }
