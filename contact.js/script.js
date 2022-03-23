@@ -1,4 +1,8 @@
-function display() {
-    alert("Thank you for the feedback,it is well received. have a good day.")
-
-}
+ 
+ $(function(){
+    $("#submit").submit(function(event){
+        event.preventDefault()
+        var message = `Thank you for the feedback`
+        $("#output").append(message)
+    });
+});
