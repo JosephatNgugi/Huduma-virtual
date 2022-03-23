@@ -33,6 +33,9 @@
             font-size: x-large;
             padding: 2%;
         }
+        .logo h1 {
+            text-decoration: none;
+        }
 
         .nav-link{
             color: #FFFFFF;
@@ -46,7 +49,7 @@
         }
        /* Jumbotron */
         .jumbotron {
-            background-image: url("../img/logo/banner1.jpg");
+            background-image: url("../img/logo/pexels-mikhail-nilov-7584674\ \(2\).jpg");
             background-size: cover;
             background-position: center center;
             text-align: right;
@@ -59,6 +62,7 @@
             font-size: 70px;
             font-family: 'Patrick Hand', cursive;
             text-decoration:none;
+            float: left;
         }
         .jumbotron h1:hover {
             color: #2364AA;
@@ -86,15 +90,33 @@
         .servicebutton a {
             color: white;
         }
+        form {
+            padding-top: 10px;
+        }
+       .formsection input[type="text"] {
+           width: 120%;
+       }
         .contact-us p {
             font-size: 25px;
             padding-top: 20px;
+            /* display: block; */
+            align-items: justify;
+            
+            
         }
-        .formsection button {
-            margin-top: 25px;
+        .footer-section  {
+            background-color: #2364AA;
+
+        }
+        /* .formsection button {
+            margin-top: 5px;
+                        
+        } */
+        .formsection h1 {
+            text-decoration: none;
         }
         footer {
-            background-color: #2364AA;
+            background-color: white;
 
         }
 
