@@ -19,13 +19,16 @@ nav{
     list-style: none;
     font-size: 1.3rem;
 }
+.logo {
+    margin-left: 5%;
+}
 .logo a {
     text-decoration: none;
 }
 .logo a h1{
     color: #000000;
     font-size: x-large;
-    padding: 2%;
+    padding: 2% 0;
 }
 .nav-link{
     color: #FFFFFF;
