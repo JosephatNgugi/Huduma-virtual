@@ -9,7 +9,8 @@ $(document).ready(function() {
     let inputtedEmail = $("#email").val();
     let newNewsletter = Newsletter(inputtedEmail);
     let message = "Thank you for subscribing!";
-    $('#output').append(message);
+    alert(message);
+    // $('#output').append(message);
 
     // alert()
 
