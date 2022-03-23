@@ -133,7 +133,8 @@ button{
 
         /* GUIDES SECTION STYLING */
         /* FOOTER STYLING */
-footer .mb-4, footer{
+footer{
+    background-color: #b5d9ff;
     text-align: left;
     color: #000000;
 }
@@ -144,5 +145,16 @@ footer a{
     text-decoration: none;
     color: #000000;
 }
-
+footer .btn{
+    margin-top: 1%;
+    background-color: #2364AA;
+    padding: 2%;
+    font-family: 'Poppins', sans-serif;;
+}
+footer .btn:hover{
+    background-color: #2364aab2;
+}
+.form{
+    padding-top: 1.5%;
+}
         /* FOOTER STYLING */
