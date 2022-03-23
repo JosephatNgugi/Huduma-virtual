@@ -8,58 +8,7 @@
         body{
          text-align: center;
         }
-                /* NAV STYLING */
-                
-        nav{
-            background-color: #2364AA;
-            color: #000000;
-            padding: 0.5% 5%;
-            position: fixed;
-            z-index: 3;
-            /* align-items: right;
-            float: right; */
-            
-        }
-        span{
-            background-color: #b5d9ff;
-            padding: 5px;
-            color: #000000;
-            border-radius: 0.1rem 1rem;
-        }
-        .navbar-links{
-            margin-right: 10%;
-        }
-        .navbar-links li{
-            list-style: none;
-            font-size: 1.3rem;
-            align-items: right;
-        }
-        .logo{
-            margin-left: 5%;
-        }
-        .logo a {
-            text-decoration: none;
-        }
-        .logo a h1{
-            color: #000000;
-            font-size: x-large;
-            padding: 2% 0;
-        }
-        .logo h1 {
-            text-decoration: none;
-            
-        }
-
-        .nav-link{
-            color: #FFFFFF;
-            font-weight: bolder;
-            padding: 0.5rem;
-            border-radius: 15px;
-        } 
-        .nav-link:hover{
-            background-color: #b5d9ff;
-            color: #000000;
-        }
+        
        /* Jumbotron */
         .jumbotron {
             background-image: url("../img/logo/pexels-mikhail-nilov-7584674\ \(2\).jpg");
@@ -81,7 +30,10 @@
         
         h1 {
             font-family: 'Antonio', sans-serif;
-            font-size: 40px;
+            
+            
+        }
+        .aboutus h1, .services h1 {
             text-decoration: underline;
             text-decoration-color: #b5d9ff;
         }
@@ -104,11 +56,18 @@
             padding: 5% 10%;
 
         }
+        .aboutus h1 {
+            padding-bottom: 0.5em;
+        }
+        .services h1 {
+            padding-bottom: 0.5em;
+        }
+        
         .service-logo {
-            border: #2364AA dotted;
+            border: #2364AA thin;
             border-radius: 20px;
-            margin: 0.01px;
-            padding: 0.1%;
+            margin-left: 0.01px;
+            /* padding: 2%; */
         }
         .service-logo:hover {
             left: 2%;
@@ -117,7 +76,7 @@
                            
         }
         .servicebutton {
-            padding-top: 20px;
+            padding-top: 25px;
             padding-bottom: 20px;
             
         }
@@ -165,9 +124,92 @@
         }
         footer {
             background-color: white;
+            
 
         }
-
+        h1, h2, h3, h4, h5, h6, a, li{
+            font-family: 'Antonio', sans-serif;
+        }
+        p{
+            font-family: 'Poppins', sans-serif;
+        }
+                /* NAV STYLING */
+        nav{
+            background-color: #2364AA;
+            color: #000000;
+            /* position: fixed; */
+            padding: 0.5% 5%;
+            align-items: center;
+        }
+        #nav{
+            position: fixed;
+            z-index: 3;
+        
+        }
+        .navbar-links{
+            margin-right: 10%;
+        }
+        .navbar-links li{
+            list-style: none;
+            font-size: 1.3rem;
+        }
+        .logo{
+            padding-left: 5%;
+        }
+        .logo a {
+            text-decoration: none;
+        }
+        .logo a h1{
+            color: #FFFFFF;
+            font-size: x-large;
+            padding: 2% 0%;
+        }
+        span{
+            background-color: #b5d9ff;
+            padding: 5px;
+            color: #000000;
+            border-radius: 0.1rem 1rem;
+        }
+        
+        .nav-link{
+            color: #FFFFFF;
+            font-weight: bolder;
+            padding: 0.5rem;
+            margin-left: 1rem;
+            border-radius: 15px;
+        } 
+        .nav-link:hover{
+            background-color: #b5d9ff;
+            color: #000000;
+        }
+                /* NAV STYLING */
+        
+        
+               /* FOOTER STYLING */
+        footer{
+            background-color: #b5d9ff;
+            text-align: left;
+            color: #000000;
+        }
+        footer li{
+            list-style: none;
+        }
+        footer a{
+            text-decoration: none;
+            color: #000000;
+        }
+        footer .btn{
+            margin-top: 1%;
+            background-color: #2364AA;
+            padding: 2%;
+            font-family: 'Poppins', sans-serif;;
+        }
+        footer .btn:hover{
+            background-color: #2364aab2;
+        }
+        .form{
+            padding-top: 1.5%;
+        }
 
 
 
