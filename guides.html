@@ -46,7 +46,7 @@
         <div class="container main">
             <h3>WHICH SERVICE WOULD YOU LIKE ASSISTANCE ON.</h3>
             <div class="row">
-                <div class="col-md-4 col-sm-6 col-xs-12 kra">
+                <div class="col-md-4 col-sm-12 col-xs-12" id="kra">
                     <a href="#kra">
                         <div class="content">
                             <img src="./images/itax-online-services.png" alt="KRA" class="img-fluid" width="">
@@ -54,7 +54,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-md-4 col-sm-6 col-xs-12 ntsa">
+                <div class="col-md-4 col-sm-12 col-xs-12 ntsa">
                     <a href="#Ntsa">
                         <div class="content">
                             <img src="./images/ntsa.png" alt="ntsa" class="img-fluid">
@@ -62,7 +62,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-md-4 col-sm-6 col-xs-12 immigration">
+                <div class="col-md-4 col-sm-12 col-xs-12 immigration">
                     <a href="#immigration">
                         <div class="content">
                             <img src="./images/immigration.png" class="img-fluid" alt="">
@@ -72,7 +72,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-4 col-sm-6 col-xs-12 helb">
+                <div class="col-md-4 col-sm-12 col-xs-12 helb">
                     <a href="#helb">
                         <div class="content">
                             <img src="./images/helb.png" class="img-fluid" alt="">
@@ -80,7 +80,7 @@
                         </div>  
                     </a>
                 </div>
-                <div class="col-md-4 col-sm-6 col-xs-12 nhif-nssf">
+                <div class="col-md-4 col-sm-12 col-xs-12 nhif-nssf">
                     <a href="#nssfnhif">
                         <div class="content">
                             <img src="./images/nssfnhif.png" class="img-fluid" alt="">
@@ -88,7 +88,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-md-4 col-sm-6 col-xs-12 nccg">
+                <div class="col-md-4 col-sm-12 col-xs-12 nccg">
                     <a href="#nccg">
                         <div class="content">
                             <img src="./images/nccg.png" class="img-fluid" alt="">
@@ -99,9 +99,10 @@
             </div>
         </div>
     </section>
-    <section id="tutorials" class="container">
-        <div class="row">
-            <div class="col-md-4 col-sm-6 col-xs-12 pinAppl">
+    <section id="tutorials" class="container hidden">
+        <button id="mainShow">Back</button>
+        <div class="row" id="kraGuides">
+            <div class="col-md-4 col-sm-12 col-xs-12 pinAppl">
                 <a href="#kraapplication">
                     <div class="content">
                         <img src="./images/itax-online-services.png" alt="KRA" class="img-fluid" width="">
@@ -110,7 +111,7 @@
                     </div>
                 </a>
             </div>
-            <div class="col-md-4 col-sm-6 col-xs-12 pinRetr">
+            <div class="col-md-4 col-sm-12 col-xs-12 pinRetr">
                 <a href="#pinretrieval">
                     <div class="content">
                         <img src="./images/itax-online-services.png" alt="KRA" class="img-fluid" width="">
@@ -119,7 +120,7 @@
                     </div>
                 </a>
             </div>
-            <div class="col-md-4 col-sm-6 col-xs-12 file returns">
+            <div class="col-md-4 col-sm-12 col-xs-12 file returns">
                 <a href="#returns">
                     <div class="content">
                         <img src="./images/itax-online-services.png" alt="KRA" class="img-fluid" width="">
@@ -129,9 +130,9 @@
                 </a>
             </div>
         </div>
-    </section>
-    <section id="guides">
-        <div class="kra container">
+
+        <button id="showKraGuides">Back</button>
+        <div class="kraPinAppl container hidden guides">
             <h3>PIN APPLICATION</h3>
             <p>PIN registration is an online process done on iTax.</p>
             <p>Residents receive their PIN Certificate instantly after completing the online registration form.</p>
@@ -164,7 +165,7 @@
                 </li>
             </ol>
         </div>
-        <div class="more">
+        <div class="more hidden">
             <h1>PAGE UNDER MAINTENANCE..</h1>
         </div>
     </section>

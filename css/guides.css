@@ -16,6 +16,7 @@ p{
 nav{
     background-color: #2364AA;
     color: #000000;
+    position: fixed;
     padding: 0.5% 5%;
     align-items: center;
 }
@@ -57,6 +58,7 @@ nav{
     position: relative;
 }
 .content{
+    color: #000000;
     cursor: pointer;
     border: #2364AA solid;
     position: relative;
@@ -64,7 +66,7 @@ nav{
     margin: 5%;
     padding: 5%;
     height: 60vh;
-    background: linear-gradient( #2364AA , #ffffff, #ffffff );
+    background: linear-gradient( #2364AA 40%, #FFFFFF , #ffffff 59%);
 }
 .content .img-fluid{
     padding-bottom: 25%;
@@ -76,7 +78,7 @@ nav{
  padding: 0% 5%;
 }
 .content:hover{
-    position: absolute;
+    /* position: absolute; */
     left: 1%;
     bottom: 3%;
     border: #2364AA double;
@@ -87,3 +89,27 @@ nav{
     text-decoration-thickness: 3px;
 }
         /* MAIN SECTION STYLING */
+        /* TUTORIALS SECTION STYLING */
+#tutorials .content{
+    height: 45vh;   
+}
+.hidden{
+    display: none;
+    position: relative;
+}
+button{
+    padding: 0.5%;
+    background-color: #FF0000;
+    position: fixed;
+    right: 3rem;
+    top: 6rem;
+}
+        /* TUTORIALS SECTION STYLING */
+        /* GUIDES SECTION STYLING */
+.guides{
+    text-align: left;
+}
+.guides h3, .guides h4, .guides h5{
+    padding: 2% 0%; 
+}
+        /* GUIDES SECTION STYLING */
