@@ -37,14 +37,15 @@
             text-decoration: underline;
             text-decoration-color: #b5d9ff;
         }
-        p, li {
+        /* p, li {
             font-family: 'Poppins', sans-serif;
-        }
-        p {
+        } */
+        .aboutus p,.services p {
             font-size: 25px;
         }
-        li {
+        .aboutus li {
             font-size: 20px;
+            font-family: 'Poppins', sans-serif;
         }
         ol {
             list-style-position: inside;
