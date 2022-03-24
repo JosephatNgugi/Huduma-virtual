@@ -105,6 +105,10 @@ span{
 }
         /* MAIN SECTION STYLING */
         /* TUTORIALS SECTION STYLING */
+#tutorials{
+    padding-top: 15%;
+    padding-bottom: 5%;
+}
 #tutorials .content{
     height: 50vh;   
 }
